@@ -24,8 +24,45 @@ header {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-main {
+main,
+footer {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+footer {
+  background-image: url("../public/img/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer h4 {
+  color: white;
+  padding: 10px 0;
+  font-size: 1.5rem;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer ul li {
+  padding: 5px 0;
+}
+
+footer ul li a {
+  color: rgb(159, 159, 159);
+}
+
+.footer-col {
+  width: 50%;
+}
+
+.footer-col img {
+  width: 500px;
+}
+
+.bottom-footer {
+  background-color: #303030;
 }
 
 header ul {
@@ -61,7 +98,7 @@ header ul li a:hover {
 }
 
 .col {
-  width: calc(100%/5);
+  width: 20%;
 }
 
 .product {
@@ -80,8 +117,33 @@ header ul li a:hover {
   margin: 0 20px;
 }
 
+.option {
+  padding: 50px 8px;
+}
+
+.btn {
+  background-color: #303030;
+  border: 3px solid #0282F9;
+  color: white;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+.socials img {
+  padding: 0 10px;
+  height: 30px;
+}
+
 /* utility */
 
 .d-flex {
   display: flex;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
 }
