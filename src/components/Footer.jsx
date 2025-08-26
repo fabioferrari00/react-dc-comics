@@ -53,9 +53,7 @@ const Footer = () => {
               </div>
             </nav>
           </div>
-          <div className="footer-col">
-            <img src="../public/img/dc-logo-bg.png" alt="" />
-          </div>
+          <div className="footer-col bg-dc"></div>
         </div>
       </div>
       <div className="bottom-footer">
@@ -65,11 +63,11 @@ const Footer = () => {
           </div>
           <div className="socials d-flex align-center">
             <h4>FOLLOW US</h4>
-            <img src="../public/img/footer-facebook.png" alt="" />
-            <img src="../public/img/footer-twitter.png" alt="" />
-            <img src="../public/img/footer-youtube.png" alt="" />
-            <img src="../public/img/footer-pinterest.png" alt="" />
-            <img src="../public/img/footer-periscope.png" alt="" />
+            <img src="img/footer-facebook.png" alt="" />
+            <img src="img/footer-twitter.png" alt="" />
+            <img src="img/footer-youtube.png" alt="" />
+            <img src="img/footer-pinterest.png" alt="" />
+            <img src="img/footer-periscope.png" alt="" />
           </div>
         </div>
       </div>

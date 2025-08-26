@@ -18,6 +18,11 @@ a {
   padding: 10px 0;
 }
 
+#logo img {
+  height: 80px;
+}
+
+
 header {
   display: flex;
   justify-content: space-between;
@@ -146,4 +151,9 @@ header ul li a:hover {
 
 .align-center {
   align-items: center;
+}
+
+.bg-dc {
+  background-image: url("../public/img/dc-logo-bg.png");
+  background-repeat: no-repeat;
 }
