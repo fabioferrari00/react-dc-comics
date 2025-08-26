@@ -1,18 +1,16 @@
+import ComicsList from "./ComicsList";
+
 const Main = () => {
   return (
     <main>
-      <div className="content">
-        <div className="container">
-          <div className="row">
-            <div className="col-100">
-              <h2> --&gt; Content goes here &lt;-- </h2>
-            </div>
-          </div>
-        </div>
+      <div className="bg-jumbotron">
+      </div>
+      <ComicsList />
+      <div>
       </div>
       <div className="body">
         <div className="container">
-          <div className="row d-flex">
+          <div className="row">
             <div className="col product">
               <img src="img/buy-comics-digital-comics.png" alt="" />
               <span>DIGITAL COMICS</span>

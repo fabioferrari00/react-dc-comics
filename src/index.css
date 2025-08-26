@@ -9,9 +9,26 @@
   margin: 0 auto;
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 a {
   text-decoration: none;
   color: black;
+}
+
+.bg-dc {
+  background-image: url("../public/img/dc-logo-bg.png");
+  background-repeat: no-repeat;
+}
+
+.bg-jumbotron {
+  height: 500px;
+  background-image: url("../public/img/jumbotron.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #logo {
@@ -106,6 +123,10 @@ header ul li a:hover {
   width: 20%;
 }
 
+.card-col {
+  width: calc(100%/6);
+}
+
 .product {
   display: flex;
   align-items: center;
@@ -139,6 +160,33 @@ header ul li a:hover {
   height: 30px;
 }
 
+.card-col img {
+  margin-top: 20px;
+  max-height: 200px;
+}
+
+.card-col h4 {
+  color: white;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.load-more {
+  background-color: #0282F9;
+  color: white;
+  padding: 10px 70px;
+  text-transform: uppercase;
+  border: none;
+  margin: 20px 0;
+}
+
+.load-more:hover {
+  cursor: pointer;
+  background-color: #00509b;
+  transition: 0.2s;
+}
+
+
 /* utility */
 
 .d-flex {
@@ -149,11 +197,14 @@ header ul li a:hover {
   justify-content: space-between;
 }
 
+.justify-content-center {
+  justify-content: center;
+}
+
 .align-center {
   align-items: center;
 }
 
-.bg-dc {
-  background-image: url("../public/img/dc-logo-bg.png");
-  background-repeat: no-repeat;
+.text-center {
+  text-align: center;
 }
