@@ -6,8 +6,6 @@ const Main = () => {
       <div className="bg-jumbotron">
       </div>
       <ComicsList />
-      <div>
-      </div>
       <div className="body">
         <div className="container">
           <div className="row">
